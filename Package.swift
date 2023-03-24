@@ -13,6 +13,7 @@ let package = Package(
             targets: ["ALNUI"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/onevcat/Kingfisher", from: "7.0.0")
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
